@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="kalk">
+            <input id="perviy">
+            <div class="btns">
+                <button id="plus" onclick="op='+'">+</button>
+                <button id="minus" onclick="op='-'">-</button>
+                <button id="umnozhit" onclick="op='*'">x</button>
+                <button id="razdelit" onclick="op='/'">:</button>
+            </div>
+            <input id="vtoroy">
+            <br>
+            <button onclick="func()">Посчитать</button>
+            <p id="result"></p>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
